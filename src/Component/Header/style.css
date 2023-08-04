@@ -1,0 +1,58 @@
+.navigation{
+    background-color: var(--white);
+    border-bottom: 1px solid var(--white);
+    padding: 0px 100px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+   position: sticky;
+   top: 0;
+   z-index: 100;
+   box-shadow: 0px 4px 4px rgba(174, 173, 174,1); 
+}
+.logo img{
+    height: 40px;
+}
+.lists ul{
+    display: flex;
+    flex-flow: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.lists ul li{
+    text-decoration: none;
+    font-size: 1.2rem;
+    margin: 0 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.login-btns{
+    display: flex;
+    flex-flow: row;
+    font-size: 1.2rem;
+    gap: 10px;
+    align-items: center;
+}
+.m{
+    display: none;
+    
+}
+
+
+.less{
+    display: none;
+}
+.more{
+    display: block;
+}
+.lists ul li:hover .m, .lists ul li:hover .less{
+ display: block;
+ transition: all 0.3s;
+}
+.lists ul li:hover .more{
+    display: none;
+}

@@ -1,0 +1,24 @@
+.btn{
+    padding: 10px;
+    font-size: 1.2rem;
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+    width: fit-content;
+    box-shadow: 0px 4px 4px rgba(174, 173, 174,1); 
+    
+}
+.red{
+    background-color: var(--redBtn);
+    border: 1px solid var(--redBtn);
+}
+.red:hover{
+    background-color: rgba(252, 131, 65,0.9);
+}
+.demo:hover{
+    background-color: rgba(11, 57, 84,0.9);
+}
+.demo{
+    background-color: var(--demoBtn);
+    border: 1px solid var(--demoBtn);
+}

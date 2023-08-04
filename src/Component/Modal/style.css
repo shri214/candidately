@@ -1,0 +1,54 @@
+.modal{
+    position: absolute;
+    background-color: var(--white);
+    top: 70px;
+    left: 0;
+    width: 98vw;
+    border: 2px solid rgb(241, 234, 234);
+    z-index: 100;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 50px 100px;
+    border: 1px solid var(--white);
+    box-shadow: 0px 15px 10px -15px #111; 
+    overflow: hidden;
+}
+.explore, .Feature, .integration{
+    flex-basis: 30%;
+    display: flex;
+    flex-flow: column;
+}
+
+.explore ul, .Feature ul{
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+}
+.data-holder{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    gap: 20px;
+    padding: 5px;
+}
+.data-holder:hover{
+    background-color: rgba(144, 225, 245, 0.5);
+    
+}
+
+.image-part{
+    
+    padding: 7px;
+}
+h2{
+    margin: 5px 0px;
+}
+
+
+.images{
+    width: 100%;
+    object-fit: contain;
+}

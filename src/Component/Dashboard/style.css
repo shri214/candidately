@@ -1,0 +1,60 @@
+.main-container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* UPPER CONTAINER STYLING */
+.upperContainer-box{
+    margin: 50px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.upperContainer-box p{
+    font-size: 1.5rem;
+    color: red;
+}
+.upperContainer-box h1{
+    font-size: 4rem;
+}
+.upperContainer-span-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1000px;
+}
+.upperContainer-span-holder span{
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.2rem;
+}
+.upperContainer-para{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: black !important;
+}
+.upperContainer-span-background{
+    background-image: url("https://global-uploads.webflow.com/605ad29901132bc543e01d9b/646b5bb9211112ac68e123ff_big-orange-rectangle.svg");
+    background-position: 50% 145%;
+    background-size: contain;
+    background-repeat: repeat-x;
+}
+.UpperContainer-image-div{
+    width: 100%;
+    padding: 50px;
+}
+.UpperContainer-image-div img{
+    width: 100%;
+    max-width: 1400px;
+}
+.upperContainer-last-para{
+    font-size: 3rem !important;
+    color: black !important;
+    font-weight: 700;
+}
